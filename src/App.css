@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+html, body {
+  margin: 0;
+  padding: 0; 
+  overflow-x:hidden;
+  background-color: rgba(139, 133, 133, 0.11);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbaruser{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+.iconsenlarge{
+  font-size: xx-large;
+  color: rgb(65, 65, 73);
+  color: rgb(94, 94, 255);
+
+}
+.homepagecol1{
+  margin-top: 16px;
+  border-radius: 12px;
+  padding-left: 32px;
+  padding-top: 32px;
+  background-color: white;
+}
+.homepagecol1 h6{
+  padding-bottom: 16px;
+  
+}
+.suggestionheading{
+  color: gray; 
+  padding-bottom: 10px; 
+  padding-top: 10px;
+}
+.suggestionsmain{
+  margin-top: 14px;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-right: 6px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.onlinedotpositionimage{
+  position: relative;
+}
+.onlinedot{
+  color: rgb(212, 0, 0);
+  font-size: 20px;
+  position: absolute;
+  top: -5px;
+  right: 270px;
+}
+textarea{
+  resize: none;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  padding-top: 20px;
+  padding-left: 12px;
+  width: 100%;
+}
+.statusarea{
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 12px;
+  padding-bottom: 20px;
+}
+.statuspostbutton{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-end;
+  padding-right: 18px;
 }
+.statuspostbutton Button{
+  background-color: rgb(41, 168, 162);
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.postsection{
+  background-color: white;
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.postedimage{
+  padding-top: 16px;
+}
+.navbariconsenlarge{
+  font-size: 20px;
 }
